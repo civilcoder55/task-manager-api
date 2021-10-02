@@ -32,5 +32,5 @@ jobs:
     - run: npm test
       env:
         JWT_SECRET: thisissecretkey
-        MONGODB_URL: mongodb://127.0.0.1:27017/task-manager-api-test
+        # MONGODB_URL: mongodb://127.0.0.1:27017/task-manager-api-test
         CI: true
