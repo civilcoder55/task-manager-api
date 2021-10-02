@@ -32,7 +32,6 @@ jobs:
         MONGODB_URL: mongodb://127.0.0.1:27017/task-manager-api-test
         CI: true
 
-jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
